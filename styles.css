@@ -1,0 +1,19 @@
+body
+{
+    background-color: rgb(190, 190, 243); color:rgb(67, 67, 226);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva; font-size: 14pt;
+    background-image: url(RubyFaceHazy.jpg); backgroud-size: 50%; 
+}
+
+a
+{
+    background-color: rgb(164, 171, 192);
+    color:rgba(46, 26, 11, 0.685);
+}
+
+a:hover
+{
+    background-color: rgba(139, 69, 19, 0.37);
+    color:rgb(109, 125, 173);
+
+}

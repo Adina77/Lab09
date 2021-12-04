@@ -33,7 +33,7 @@
 
     // Print out a wecome message and the user's password a
     echo '<link rel="stylesheet" href="style.css" type="text/css"/>';
-    echo "<h2>Welcome to the Cat Supply Store,"  . $email .  "!</h2><br>";
+    echo "<h2>Welcome to the Cat Supply Store, "  . $email .  "!</h2><br>";
     echo "<h3>Your secret password is: " . $password . "</h3><br>";
     echo "<p>Thank you for your purchase. Here is your receipt: </p><br><br>";
 
@@ -42,26 +42,26 @@
         echo "<table>";
         echo "<tr>";
         echo "<th></th>";
-        echo "<th>Quantity</th>";
-        echo "<th>Cost Per Item</th>";
-        echo "<th>Subtotal</th>";
+        echo "<th> Quantity </th>";
+        echo "<th> Cost Per Item </th>";
+        echo "<th> Subtotal </th>";
         echo "</tr>";
         echo "<tr>";
         echo "<th>Kitten food</th>";
         echo "<td>$kitten</td>";
-        echo "<td>$25</td>";
+        echo "<td> $25 </td>";
         echo "<td>$kittenCost</td>";
         echo "</tr>";
         echo "<tr>";
         echo "<th>Adult food</th>";
         echo "<td>$adult</td>";
-        echo "<td>$40</td>";
+        echo "<td> $40 </td>";
         echo "<td>$adultCost</td>";
         echo "</tr>";
         echo "<tr>";
         echo "<th>Sensitive food</th>";
         echo "<td>$sensitive</td>";
-        echo "<td>$45</td>";
+        echo "<td> $45 </td>";
         echo "<td>$sensitiveCost</td>";
         echo "</tr>";
         echo "<tr>";

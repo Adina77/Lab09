@@ -14,7 +14,7 @@
     <br>
     </center>
 
-    <form action="customerBackend.php.php" onsubmit="validate()" method="post">
+    <form action="customerBackend.php" onsubmit="validate()" method="post">
         Username (e-mail): <input type="text" id="email" name="email"><br>
         Password: <input type="text" id="password" name="password"><br><br>
 
@@ -43,11 +43,11 @@
                 <h3>Shipping Options</h3>
             </center>
             <input type="radio" name="shipping" id="shipping1" value="free" />
-            <label for="shipping1">Free 7 Day</label>
+            <label for="shipping1">Free 7 Day</label><br>
             <input type="radio" name="shipping" id="shipping2" value="50" />
-            <label for="shipping2">$50.00 over night</label>
+            <label for="shipping2">$50.00 over night</label><br>
             <input type="radio" name="shipping" id="shipping3" value="5">
-            <label for="shipping3">$5.00 three day</label>
+            <label for="shipping3">$5.00 three day</label><br>
         </div>
         <input type="submit" id="submit" />
         <input type="reset" id="reset" />
